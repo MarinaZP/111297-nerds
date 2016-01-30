@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
       <a class="logo" href="index.html">
-      <img src="img/logo.png" width="#" height="#" alt="Nёrd's">
+      <img src="img/logo.png" width="139" height="56" alt="Nёrd's">
       </a>
       <div class="container">
         <nav class="main-navigation">
@@ -32,91 +33,93 @@
       </div>
       <div class="network">
         <h2>Сетка:</h2>
-        <label><input name="net" type="radio" value="adaptive" checked>Адаптивная</label>
-        <label><input name="net" type="radio" value="fixed">Фиксированая</label>
-        <label><input name="net" type="radio" value="Rubber">Резиновая</label>
+          <label><input name="net" type="radio" value="adaptive" checked>Адаптивная</label>
+          <label><input name="net" type="radio" value="fixed">Фиксированая</label>
+          <label><input name="net" type="radio" value="Rubber">Резиновая</label>
         <h2>Особенности:</h2>
-        <label><input type="checkbox" name="slider" value="1"> Слайдер</label>
-        <label><input type="checkbox" name="unit-benefits" value="1"> Блок преимуществ</label>
-        <label><input type="checkbox" name="news" value="1"> Новости</label>
-        <label><input type="checkbox" name="gallery"> Галерея</label>
-        <label><input type="checkbox" name="basket"> Корзина</label>
+          <label><input type="checkbox" name="slider" value="1"> Слайдер</label>
+          <label><input type="checkbox" name="unit-benefits" value="1"> Блок преимуществ</label>
+          <label><input type="checkbox" name="news" value="1"> Новости</label>
+          <label><input type="checkbox" name="gallery"> Галерея</label>
+          <label><input type="checkbox" name="basket"> Корзина</label>
         <input type="submit" value="Показать">
       </div>
     </form>
     <div class="order">
-    <p>
-      Сортировать:
-      <a href="#">По цене</a>
-      <a href="#">По типу</a>
-      <a href="#">По функционалу</a>
-      <a class="sort-up" href="#"></a>
-      <a class="sort-down" href="#"></a>
-    </p>
+      <p>
+        Сортировать:
+        <a href="#">По цене</a>
+        <a href="#">По типу</a>
+        <a href="#">По функционалу</a>
+      </p>
+      <div class="triangle" class="active"></div>
+      <div class="triangle"></div>
     </div>
     <div class="items-list">
       <div class="item">
-        <img src="img/item-aviator.png">
+        <img src="img/aviator.jpg" width="240" height="240" alt="Aviator">
         <div class="description">
-          <h3>Aviator</h3>
-          <p>Aviator text</p>
-          <a href="#"><span>0 Р.</span></a>
+          <h4>Aviator</h4>
+          <p>Одностраничный макет с авторским дизайном</p>
+          <a href="#"><span>8000 Р.</span></a>
         </div>
       </div>
       <div class="item">
-        <img src="img/item-sunset.png">
+        <img src="img/sunset.jpg" width="240" height="240" alt="Sunset">
         <div class="description">
-          <h3>Sunset</h3>
+          <h4>Sunset</h4>
           <p>Интернет-магазин с личным кабинетом</p>
           <a href="#"><span>10000 Р.</span></a>
         </div>
       </div>
       <div class="item">
-        <img src="img/item-forte.png">
+        <img src="img/forte.jpg" width="240" height="240" alt="Forte">
         <div class="description">
-          <h3>Forte</h3>
-          <p>Forte text</p>
-          <a href="#"><span>0 Р.</span></a>
+          <h4>Forte</h4>
+          <p>Отличный макет для личного блога</p>
+          <a href="#"><span>5000 Р.</span></a>
         </div>
       </div>
       <div class="item">
-        <img src="img/item-organic.png">
-        <div class="description">
-          <h3>Modern organic thai</h3>
-          <p>Organic text</p>
-          <a href="#"><span>0 Р.</span></a>
+        <img src="img/modern-organic.jpg">
+        <div class="description" width="240" height="240" alt="Modern organic thai">
+          <h4>Modern organic thai</h4>
+          <p>Сайт для ресторана быстрого питания</p>
+          <a href="#"><span>12000 Р.</span></a>
         </div>
       </div>
       <div class="item">
-        <img src="img/item-avenue.png">
+        <img src="img/avenu.jpg" width="240" height="240" alt="Avenue">
         <div class="description">
-          <h3>Avenue</h3>
-          <p>Avenue text</p>
-          <a href="#"><span>0 Р.</span></a>
+          <h4>Avenue</h4>
+          <p>Макет для блога о путешествиях</p>
+          <a href="#"><span>8000 Р.</span></a>
         </div>
       </div>
       <div class="item">
-        <img src="img/dovetail-avenue.png">
+        <img src="img/dovetail.jpg" width="240" height="240" alt="Dovertial">
         <div class="description">
-          <h3>Dovetail</h3>
-          <p>Dovetail text</p>
-          <a href="#"><span>0 Р.</span></a>
+          <h4>Dovetail</h4>
+          <p>Интернет-магазин с галереей товаров</p>
+          <a href="#"><span>14000 Р.</span></a>
         </div>
       </div>
     </div>
     <div class="pagination">
       <ul>
-        <li class="active"><a href="#">1</a></li>
+        <li class="active">1</li>
         <li><a href="#">2</a></li>
         <li><a href="#">3</a></li>
         <li><a href="#">Следующая</a></li>
       </ul>
     </div>
-    <img src="img/map-nerds.png" width="#" height="#" alt="Мар Nёrd's">
+    <img src="img/map.jpg" width="1200" height="416" alt="Мар Nёrd's">
+    <img src="img/pointer.svg" width="231" height="190" alt="Nёrd's">
+    <img src="img/logo.png" width="92" height="37" alt="Nёrd's">
     <div class="contact">
       <p>191186, Санкт-Петербург,<br>
         ул. Б. Конюшенная, д. 19/8<br>
-        <br>
+      </p>
       <p>тел. +7(812)275-75-75<br>
         <a class="button" href="#">Напишите нам</a>
     </div>
@@ -128,7 +131,7 @@
         <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
       </section>
       <div class="slogan">
-        <h1>Давайте дружить, это выгодно!</h1>
+        <h2>Давайте дружить, это выгодно!</h2>
         <p>Скидка 10% для друзей из социальных сетей.</p>
       </div>
     </footer>
